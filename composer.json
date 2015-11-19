@@ -3,10 +3,6 @@
     {
       "type": "vcs",
       "url": "git@github.com:thecodingmachine/quiz-module.git"
-    },
-    {
-      "type": "vcs",
-      "url": "https://github.com/moufmouf/integration.drupal.druplash"
     }
   ],
   "require": {

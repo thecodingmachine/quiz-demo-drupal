@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "220ed0e1cca70145a7d4797f80359530",
-    "content-hash": "e15be384acd2bb2f1049221a3018a958",
+    "hash": "20071cf04a3fd106481756919b322db3",
+    "content-hash": "f39c6f0eda587dcd043e71c0ee51ace6",
     "packages": [
         {
             "name": "composer/installers",
@@ -548,20 +548,20 @@
             "version": "7.4.x-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/moufmouf/integration.drupal.druplash.git",
-                "reference": "fabde528bb8656e8c75016c50f9d0e76266bbfb5"
+                "url": "https://github.com/thecodingmachine/integration.drupal.druplash.git",
+                "reference": "fa07413a375a34ac1404befff38809b32974ab02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/moufmouf/integration.drupal.druplash/zipball/fabde528bb8656e8c75016c50f9d0e76266bbfb5",
-                "reference": "fabde528bb8656e8c75016c50f9d0e76266bbfb5",
+                "url": "https://api.github.com/repos/thecodingmachine/integration.drupal.druplash/zipball/fa07413a375a34ac1404befff38809b32974ab02",
+                "reference": "fa07413a375a34ac1404befff38809b32974ab02",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "*",
                 "mouf/html.template.templateinterface": "~2.1",
                 "mouf/html.utils.weblibrarymanager": "~3.0",
-                "mouf/integration.drupal.druplash-drupalmodule": "7.0.*",
+                "mouf/integration.drupal.druplash-drupalmodule": "~7.4",
                 "mouf/mvc.splash-common": "~7.0",
                 "mouf/security.rightsservice": "~2.0",
                 "mouf/security.rightsservice-splash": "~4.0",
@@ -606,6 +606,7 @@
                     "Mouf": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -624,23 +625,20 @@
                 "mvc",
                 "splash"
             ],
-            "support": {
-                "source": "https://github.com/moufmouf/integration.drupal.druplash/tree/7.4"
-            },
-            "time": "2015-11-19 09:39:16"
+            "time": "2015-11-19 17:16:59"
         },
         {
             "name": "mouf/integration.drupal.druplash-drupalmodule",
-            "version": "v7.0.0",
+            "version": "7.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thecodingmachine/integration.drupal.druplash-drupalmodule.git",
-                "reference": "d23aa354e784dd5773eadf6b99f0f33979b2445c"
+                "reference": "d6d9b6c111ef0805d3d21c88b95573a0c4852f42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thecodingmachine/integration.drupal.druplash-drupalmodule/zipball/d23aa354e784dd5773eadf6b99f0f33979b2445c",
-                "reference": "d23aa354e784dd5773eadf6b99f0f33979b2445c",
+                "url": "https://api.github.com/repos/thecodingmachine/integration.drupal.druplash-drupalmodule/zipball/d6d9b6c111ef0805d3d21c88b95573a0c4852f42",
+                "reference": "d6d9b6c111ef0805d3d21c88b95573a0c4852f42",
                 "shasum": ""
             },
             "require": {
@@ -671,7 +669,7 @@
                 "mvc",
                 "splash"
             ],
-            "time": "2013-10-09 09:43:11"
+            "time": "2015-11-19 17:14:18"
         },
         {
             "name": "mouf/mouf",
