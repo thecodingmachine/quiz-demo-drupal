@@ -1,0 +1,31 @@
+{
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:thecodingmachine/quiz-module.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/moufmouf/integration.drupal.druplash"
+    }
+  ],
+  "require": {
+    "mouf/mouf": "~2.0",
+    "thecodingmachine/drupal": "~7.18",
+    "mouf/integration.drupal.druplash": "~7.4",
+    "thecodingmachine/quiz-module": "*",
+    "mouf/utils.package-builder": "^1.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "Test": "sites/all/custom"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "installer-paths": {
+      "sites/all/modules/druplash/": ["mouf/integration.drupal.druplash-drupalmodule"]
+    }
+  }
+}
