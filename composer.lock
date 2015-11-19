@@ -549,12 +549,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thecodingmachine/integration.drupal.druplash.git",
-                "reference": "fa07413a375a34ac1404befff38809b32974ab02"
+                "reference": "920986a17ff5aca1ba72df35b5c6a9597bcb736e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thecodingmachine/integration.drupal.druplash/zipball/fa07413a375a34ac1404befff38809b32974ab02",
-                "reference": "fa07413a375a34ac1404befff38809b32974ab02",
+                "url": "https://api.github.com/repos/thecodingmachine/integration.drupal.druplash/zipball/920986a17ff5aca1ba72df35b5c6a9597bcb736e",
+                "reference": "920986a17ff5aca1ba72df35b5c6a9597bcb736e",
                 "shasum": ""
             },
             "require": {
@@ -625,7 +625,7 @@
                 "mvc",
                 "splash"
             ],
-            "time": "2015-11-19 17:16:59"
+            "time": "2015-11-19 17:37:46"
         },
         {
             "name": "mouf/integration.drupal.druplash-drupalmodule",
