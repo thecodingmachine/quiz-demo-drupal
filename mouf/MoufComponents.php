@@ -492,12 +492,12 @@ $moufManager->addComponentInstances(array (
       array (
         'value' => 
         array (
-          0 => 'quizz.phpninja.q1',
-          1 => 'quizz.phpninja.q2',
-          2 => 'quizz.phpninja.q3',
-          3 => 'quizz.phpninja.q4',
-          4 => 'quizz.phpninja.q5',
-          5 => 'quizz.phpninja.q6',
+          0 => 'quiz.phpninja.q1',
+          1 => 'quiz.phpninja.q2',
+          2 => 'quiz.phpninja.q3',
+          3 => 'quiz.phpninja.q4',
+          4 => 'quiz.phpninja.q5',
+          5 => 'quiz.phpninja.q6',
         ),
         'parametertype' => 'object',
         'type' => 'string',
@@ -793,7 +793,7 @@ $moufManager->addComponentInstances(array (
       ),
     ),
   ),
-  'quizz.phpninja.q1' => 
+  'quiz.phpninja.q1' => 
   array (
     'class' => 'TheCodingMachine\\Quiz\\Model\\Question',
     'external' => false,
@@ -844,7 +844,7 @@ $moufManager->addComponentInstances(array (
       ),
     ),
   ),
-  'quizz.phpninja.q2' => 
+  'quiz.phpninja.q2' => 
   array (
     'class' => 'TheCodingMachine\\Quiz\\Model\\Question',
     'external' => false,
@@ -886,7 +886,7 @@ $moufManager->addComponentInstances(array (
       ),
     ),
   ),
-  'quizz.phpninja.q3' => 
+  'quiz.phpninja.q3' => 
   array (
     'class' => 'TheCodingMachine\\Quiz\\Model\\Question',
     'external' => false,
@@ -937,7 +937,7 @@ $moufManager->addComponentInstances(array (
       ),
     ),
   ),
-  'quizz.phpninja.q4' => 
+  'quiz.phpninja.q4' => 
   array (
     'class' => 'TheCodingMachine\\Quiz\\Model\\Question',
     'external' => false,
@@ -988,7 +988,7 @@ $moufManager->addComponentInstances(array (
       ),
     ),
   ),
-  'quizz.phpninja.q5' => 
+  'quiz.phpninja.q5' => 
   array (
     'class' => 'TheCodingMachine\\Quiz\\Model\\Question',
     'external' => false,
@@ -1030,7 +1030,7 @@ $moufManager->addComponentInstances(array (
       ),
     ),
   ),
-  'quizz.phpninja.q6' => 
+  'quiz.phpninja.q6' => 
   array (
     'class' => 'TheCodingMachine\\Quiz\\Model\\Question',
     'external' => false,
@@ -1533,43 +1533,43 @@ return rtrim(sys_get_temp_dir(), '/\\').'/mouftwigtemplatemain_'.$posixGetuid.st
 	/**
 	 * @return TheCodingMachine\Quiz\Model\Question
 	 */
-	 public static function getQuizz_phpninja_q1() {
-	 	return MoufManager::getMoufManager()->get('quizz.phpninja.q1');
+	 public static function getQuiz_phpninja_q1() {
+	 	return MoufManager::getMoufManager()->get('quiz.phpninja.q1');
 	 }
 
 	/**
 	 * @return TheCodingMachine\Quiz\Model\Question
 	 */
-	 public static function getQuizz_phpninja_q2() {
-	 	return MoufManager::getMoufManager()->get('quizz.phpninja.q2');
+	 public static function getQuiz_phpninja_q2() {
+	 	return MoufManager::getMoufManager()->get('quiz.phpninja.q2');
 	 }
 
 	/**
 	 * @return TheCodingMachine\Quiz\Model\Question
 	 */
-	 public static function getQuizz_phpninja_q3() {
-	 	return MoufManager::getMoufManager()->get('quizz.phpninja.q3');
+	 public static function getQuiz_phpninja_q3() {
+	 	return MoufManager::getMoufManager()->get('quiz.phpninja.q3');
 	 }
 
 	/**
 	 * @return TheCodingMachine\Quiz\Model\Question
 	 */
-	 public static function getQuizz_phpninja_q4() {
-	 	return MoufManager::getMoufManager()->get('quizz.phpninja.q4');
+	 public static function getQuiz_phpninja_q4() {
+	 	return MoufManager::getMoufManager()->get('quiz.phpninja.q4');
 	 }
 
 	/**
 	 * @return TheCodingMachine\Quiz\Model\Question
 	 */
-	 public static function getQuizz_phpninja_q5() {
-	 	return MoufManager::getMoufManager()->get('quizz.phpninja.q5');
+	 public static function getQuiz_phpninja_q5() {
+	 	return MoufManager::getMoufManager()->get('quiz.phpninja.q5');
 	 }
 
 	/**
 	 * @return TheCodingMachine\Quiz\Model\Question
 	 */
-	 public static function getQuizz_phpninja_q6() {
-	 	return MoufManager::getMoufManager()->get('quizz.phpninja.q6');
+	 public static function getQuiz_phpninja_q6() {
+	 	return MoufManager::getMoufManager()->get('quiz.phpninja.q6');
 	 }
 
 	/**
